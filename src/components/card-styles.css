@@ -1,0 +1,39 @@
+
+body{
+    background-color: gray; 
+}
+
+.card-list {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card-container {
+    display:flex;
+    flex-direction: column;
+    background-color:#dedede;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card-container h2{
+    font-size: 20px;
+}
+
+.card-container:hover {
+    transform: scale(1.05)
+}
+
+#avatar{
+    border-radius: 100%;
+    width:120px;
+    margin: 0 auto;
+}
